@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Projects - Baconzilla's website</title>
+<title>Page Not Found - Baconzilla's website</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -19,9 +19,14 @@ body {
 h1 {
     font-size: 25px;
 }
-a {
-    color: #2580e9;
-    margin-left: 0px;
+button {
+  color: white;
+  background-color: #353434;
+  border-width: 0;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
 }
 navhead {
     padding-left: 15px;
@@ -84,28 +89,16 @@ section::after {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.navbar {
+
+.Pnf {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 4;
-    padding-top: 10px;
-}
-.header {
-  grid-column-start: 2;
-  grid-column-end: 5;
-}
-.Project1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.Project3 {
-  grid-column-start: 2;
-  grid-column-end: 3;
+    grid-row-end: 3;
 }
 .footer {
-    grid-column-start: 1;
-    grid-column-end: 5
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 
@@ -140,55 +133,15 @@ img {
 <body>
 
 <div class="grid-container">
-     <div class="header">
-        <header>
-          <img src="images/baconzilla.png" alt="Baconzilla">
-            <h2>Baconzilla's website</h2>
-        </header>
-    </div>
-
-    <div class="navbar">
-        <section>
-            <navhead>Menu</navhead>
-            <nav>
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="others.html">Other Stuff</a></li>
-                </ul>
-            </nav>
-        </section>
-    </div>
-
-    <div class="Project1">
+    <div class="Pnf">
         <article>
-            <h1>Python TicTacToe</h1>
-            <p>An epic TicTacToe clone written in the funny snake language</p>
-            <a href="https://github.com/Baconzilla123/TicTacToe">Open</a>
+            <h1>Page Not Found</h1>
+            <p>What the hell are you snoopin around for?</p>
+            <form action="index.html">
+              <button class="btn btn-danger btn-lg">Back To Home</button>
         </article>
     </div>
-    <div class="Project2">
-      <article>
-          <h1>ChatBot</h1>
-          <p>Extremely rushed chat bot for an assignment I had to do</p>
-          <a href="https://github.com/Baconzilla123/ChatBot">Open</a>
-      </article>
-    </div>
-    <div class="Project3">
-      <article>
-          <h1>Template</h1>
-          <p>Placeholder</p>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Open</a>
-      </article>
-  </div>
-  <div class="Project4">
-    <article>
-        <h1>Template</h1>
-        <p>Placeholder</p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Open</a>
-    </article>
-</div>
+   
     <div class="footer">
         <footer>
             <p>© - copyrighted under DTMS (don't touch my sh*t)</p>
