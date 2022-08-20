@@ -1,4 +1,0 @@
-cron:
-- description: HS table purge
-  url: /score/purge
-  schedule: every 24 hours
