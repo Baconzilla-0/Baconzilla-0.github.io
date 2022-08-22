@@ -137,3 +137,10 @@ img {
   border-radius: 5px;
   position: fixed 10;
 }
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
