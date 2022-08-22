@@ -7,15 +7,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #333333;
   }
-  button {
-    color: white;
-    background-color: #353434;
-    border-width: 0;
-    padding: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 7px;
-  }
+  
   h1 {
       font-size: 25px;
   }
@@ -140,4 +132,13 @@
     margin-right: 10px;
     border-radius: 5px;
     position: fixed 10;
+  }
+button {
+    color: white;
+    background-color: #353434;
+    border-width: 0;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
   }
