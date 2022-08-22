@@ -4,7 +4,7 @@
   }
   
   body {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #333333;
   }
   
@@ -45,7 +45,7 @@
   nav ul {
     list-style-type: none;
     padding: 0;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 16px;
   }
