@@ -72,7 +72,7 @@ section::after {
 /*grid setup*/
 .grid-container {
   display: grid;
-  grid-template-columns: 15% auto auto auto;
+  grid-template-columns: 15% 25% auto auto;
   gap: 10px;
   background-color: #2195f300;
   margin: 10px;
