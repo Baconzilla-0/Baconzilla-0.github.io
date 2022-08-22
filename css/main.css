@@ -17,7 +17,7 @@ button {
   border-radius: 7px;
 }
 h1 {
-    font-size: 25vw;
+    font-size: 25px;
 }
 a {
     color: #2580e9;
@@ -25,7 +25,7 @@ a {
 }
 navhead {
     padding-left: 15px;
-    font-size: 20vw;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ nav ul {
   padding: 0;
   font-family: 'Segoe UI';
   font-weight: bold;
-  font-size: 16vw;
+  font-size: 16px;
 }
 
 article {
