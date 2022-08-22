@@ -76,13 +76,20 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  .navbar {
-      grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 1;
-      grid-row-end: 4;
-      padding-top: 10px;
-  }
+  .navhead {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 0px;
+}
   .header {
     grid-column-start: 2;
     grid-column-end: 5;
