@@ -136,6 +136,7 @@ img {
   margin-right: 10px;
   border-radius: 5px;
   position: fixed 10;
+  background-color: #444444;
 }
 /* Style the collapsible content. Note: hidden by default */
 .content {
