@@ -3,6 +3,7 @@
   color: white;
   background-image: url(/images/ocean.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
