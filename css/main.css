@@ -2,6 +2,8 @@
   box-sizing: border-box;
   color: white;
   background-image: url(/images/ocean.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
