@@ -48,7 +48,7 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-  font-family: 'Segoe UI';
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 16px;
 }
