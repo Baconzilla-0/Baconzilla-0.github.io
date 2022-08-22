@@ -7,11 +7,11 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #333333;
-  background-image: url(/images/ocean.png);
+  /*background-image: url(/images/ocean.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
+  */
 }
 button {
   color: white;
